@@ -1,0 +1,29 @@
+html,
+body,
+#root{
+	height: 100%;
+	width: 100%;
+}
+
+@keyframes moving{
+	0%{
+		background-position: 30% 50%
+	},
+	33%{
+		background-position: 60% 50%
+	},
+	66%{
+		background-position: 40% 40%
+	},
+	100%{
+		background-position: 30% 50%
+	}
+
+}
+.white{
+	color:#FFF;
+}
+
+.moved{
+	animation: moving 15.0s infinite ease-out;
+}
